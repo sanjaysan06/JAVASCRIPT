@@ -2,32 +2,54 @@
 //Reverse the words in a string and also reverse the letters in each word
 
 
-const str ="My ctc is 20LPA";
-let sp=str.split(" ");
-let reverse="";
+// const str ="My ctc is 20LPA";
+// let sp=str.split(" ");
+// let reverse="";
 
-for(let i=sp.length-1;i>=0;i--)
+// for(let i=sp.length-1;i>=0;i--)
+// {
+//     reverse +=sp[i]+ " ";
+// }
+// console.log(reverse);
+
+// let sp1=str.split(" ");
+// let reverse1="";
+
+// for(let i=0;i<sp1.length;i++)
+// {
+//     for(let j=sp1[i].length-1;j>=0;j--)
+//     {
+//         reverse1 +=sp1[i][j];
+//     }
+//     reverse1 +=" ";
+// }
+// console.log(reverse1);
+
+
+
+const r="My ctc is 20LPA";
+let s=r.split(" ");
+let rev="";
+
+for(let i=s.length-1;i>=0;i--)
 {
-    reverse +=sp[i]+ " ";
+    rev +=s[i]+" ";
+
 }
-console.log(reverse);
 
-let sp1=str.split(" ");
-let reverse1="";
+console.log(rev);
+let s1=r.split(" ");
+let rev1="";
 
-for(let i=0;i<sp1.length;i++)
+for(let i=0;i<s1.length;i++)
 {
-    for(let j=sp1[i].length-1;j>=0;j--)
+    for(let j=s1[i].length-1;j>=0;j--)
     {
-        reverse1 +=sp1[i][j];
+        rev1 +=s1[i][j];
     }
-    reverse1 +=" ";
+    rev1 +=" ";
 }
-console.log(reverse1);
-
-
-
-
+console.log(rev1);
 
 
 
